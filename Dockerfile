@@ -1,7 +1,6 @@
-### vi Dockerfile
-# Pull base imageuseradd
-From tomcat:8-jre8
+# Pull base image
+From tomcat:9-jre9
 # Maintainer
-MAINTAINER "sak"
-# copy war file on to container
+MAINTAINER "radhikak8123@gmail.com"
 COPY ./cicd-for-webapp.war /usr/local/tomcat/webapps
+
